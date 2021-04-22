@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 require('dotenv').config()
-const token = precess.env.tokens;
+const token = process.env.token;
 
 client.on('ready', () => {
   console.log('켰다.');
